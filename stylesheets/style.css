@@ -1,0 +1,39 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.item {
+    font-family: "Times New Roman", "Arial", sans-serif;
+    color: #000000;
+    font-size: 32px;
+}
+.item-3,
+.item-5 {
+    color: #ffffff;
+}
+.item-1,
+.item-4,
+.item-6 {
+    background-color: #f3c848;
+}
+.item-2 {
+    background-color: #f62a1d;
+}
+.item-3 {
+    background-color: #bc625f;
+}
+.item-5 {
+    background-color: #404040;
+}
+
+.item {
+    display: flex;
+}
+
+.text {
+    margin: auto;
+    text-align: center;
+}
