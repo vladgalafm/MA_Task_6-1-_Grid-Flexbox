@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper.flex {
     display: flex;
     flex-flow: row wrap;
 }
@@ -7,37 +7,37 @@
     width: calc((100% - 100px) * 0.65 + 100px);
 }
 
-.item-1 {
+.item-1.flex {
     height: 100px;
     width: 100px;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000000;
 }
 
-.item-2 {
+.item-2.flex {
     height: 100px;
     width: calc(100% - 100px);
     border-bottom: 1px solid #000000;
 }
 
-.item-3 {
+.item-3.flex {
     height: 300px;
     width: 100px;
     border-right: 1px solid #000000;
 }
 
-.item-4 {
+.item-4.flex {
     height: 300px;
     width: calc(100% - 100px);
     border-right: 1px solid #000000;
 }
 
-.item-5 {
+.item-5.flex {
     height: 450px;
     width: calc((100% - 100px) * 0.35);
 }
 
-.item-6 {
+.item-6.flex {
     height: 150px;
     width: 100%;
     border-top: 1px solid #000000;
