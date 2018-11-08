@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper-grid {
     display: grid;
     grid-template: 100px 300px 150px / 100px 13fr 7fr;
     grid-gap: 1px;

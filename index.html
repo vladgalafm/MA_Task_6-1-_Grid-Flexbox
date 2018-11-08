@@ -2,31 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Layout</title>
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <link href="stylesheets/grid-style.css" rel="stylesheet" type="text/css">
     <link href="stylesheets/flex-style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="item text">GRID</div>
-<div class="wrapper">
-    <div class="item item-1"><div class="text">LOGO</div></div>
-    <div class="item item-2"><div class="text">MENU</div></div>
-    <div class="item item-3"><div class="text">NEWS FEED</div></div>
-    <div class="item item-4"><div class="text">LIST OF SOMETHING</div></div>
-    <div class="item item-5"><div class="text">NAVIGATION BAR</div></div>
-    <div class="item item-6"><div class="text">FOOTER</div></div>
+<h2 class="item text">GRID</h2>
+<div class="wrapper-grid">
+    <div class="item item-1"><p class="text">LOGO</p></div>
+    <div class="item item-2"><p class="text">MENU</p></div>
+    <div class="item item-3"><p class="text">NEWS FEED</p></div>
+    <div class="item item-4"><p class="text">LIST OF SOMETHING</p></div>
+    <div class="item item-5"><p class="text">NAVIGATION BAR</p></div>
+    <div class="item item-6"><p class="text">FOOTER</p></div>
 </div>
-<div class="item text">FLEXBOX</div>
-<div class="wrapper flex">
-    <div class="item item-1 flex"><div class="text">LOGO</div></div>
-    <div class="item item-2 flex"><div class="text">MENU</div></div>
-    <div class="wrapper flex child-wrapper">
-        <div class="item item-3 flex"><div class="text">NEWS FEED</div></div>
-        <div class="item item-4 flex"><div class="text">LIST OF SOMETHING</div></div>
-        <div class="item item-6 flex"><div class="text">FOOTER</div></div>
+<h2 class="item text">FLEXBOX</h2>
+<div class="wrapper-flex">
+    <div class="wrapper-flex child1">
+        <div class="item item-1 flex"><p class="text">LOGO</p></div>
+        <div class="item item-2 flex"><p class="text">MENU</p></div>
     </div>
-    <div class="item item-5 flex"><div class="text">NAVIGATION BAR</div></div>
+    <div class="wrapper-flex child2">
+        <div class="item item-3 flex"><p class="text">NEWS FEED</p></div>
+        <div class="item item-4 flex"><p class="text">LIST OF SOMETHING</p></div>
+        <div class="item item-6 flex"><p class="text">FOOTER</p></div>
+    </div>
+    <div class="item item-5 flex"><p class="text">NAVIGATION BAR</p></div>
 </div>
 </body>
 </html>
